@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'home-bg':"url('/src/assets/background/student1.jpg')"
+      },
+      backdropOpacity: {
+        15: '.15',
+      }
+    },
   },
   plugins: [],
 }
