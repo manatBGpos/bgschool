@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage:{
-        'home-bg':"url('/src/assets/background/student1.jpg')"
+        'image-title':"url('/src/assets/background/highway-blue-sky.jpg')"
       },
       backdropOpacity: {
         15: '.15',
